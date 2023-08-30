@@ -1,11 +1,23 @@
-import { useState } from "react";
-
+import React from "react";
+// import components
+import Header from "./components/Header";
+import About from "./components/About";
+import Whatdo from "./components/Whatdo";
+import Skills from "./components/Skills";
+import Protfolio from "./components/Protfolio";
+import Clients from "./components/Clients";
+import Contact from "./components/Contact";
 
 function App() {
-
     return (
         <>
-            <h1 className="text-3xl font-bold text-red-950">Hello world!</h1>
+            <Header />
+            <About />
+            <Whatdo />
+            <Skills />
+            <Protfolio />
+            <Clients />
+            <Contact />
         </>
     );
 }

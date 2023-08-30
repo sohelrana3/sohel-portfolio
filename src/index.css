@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.color {
+    background-color: rgba(8, 7, 14, 0.71);
+}
+.active {
+    color: red !important;
+  }
+
+
+
+
+
+
+
+
+/* -------------------------------------- */
