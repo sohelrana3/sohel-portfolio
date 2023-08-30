@@ -2,7 +2,7 @@ import React from 'react'
 
 const Clients = () => {
   return (
-    <div>Clients</div>
+    <div className='w-full h-[600px] bg-black' id='clients'>About</div>
   )
 }
 

@@ -9,40 +9,82 @@ const Nav = () => {
             </div>
             <div>
                 <ul className="flex gap-x-8">
-                <li><Link activeClass="active" className="test1" to="home" spy={true} smooth={true} duration={500} >Test 1</Link></li>
-                    <li className="text-lg active">
-                        <Link activeClass="active" to="home" smooth={true} duration={600}>
-                           Home
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            Home
                         </Link>
                     </li>
-                    <li>
-                        <Link activeClass="active" to="about" smooth={true} duration={600}>
-                           About
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            offset={45}
+                        >
+                            About
                         </Link>
                     </li>
-                    <li>
-                        <Link to="about" smooth={true} duration={600}>
-                           What I Do
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="what"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            What I Do
                         </Link>
                     </li>
-                    <li>
-                        <Link activeClass="active" to="about" smooth={true} duration={600}>
-                           Skills
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            Skills
                         </Link>
                     </li>
-                    <li>
-                        <Link to="about" smooth={true} duration={600} >
-                          Protfolio
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="protfolio"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            Protfolio
                         </Link>
                     </li>
-                    <li>
-                        <Link to="about" smooth={true} duration={600}>
-                          Clients
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="clients"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            Clients
                         </Link>
                     </li>
-                    <li>
-                        <Link to="about" smooth={true} duration={600}>
-                          Contact
+                    <li className="text-white">
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                        >
+                            Contact
                         </Link>
                     </li>
                 </ul>
