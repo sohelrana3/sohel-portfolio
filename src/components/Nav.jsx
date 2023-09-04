@@ -1,5 +1,7 @@
 import * as React from "react";
 import { Link } from "react-scroll";
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitter, BsDribbble } from "react-icons/bs";
 
 const Nav = () => {
     return (
@@ -9,7 +11,7 @@ const Nav = () => {
             </div>
             <div>
                 <ul className="flex gap-x-8">
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="home"
@@ -20,7 +22,7 @@ const Nav = () => {
                             Home
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="about"
@@ -32,7 +34,7 @@ const Nav = () => {
                             About
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="what"
@@ -43,7 +45,7 @@ const Nav = () => {
                             What I Do
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="skills"
@@ -54,7 +56,7 @@ const Nav = () => {
                             Skills
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="protfolio"
@@ -65,7 +67,7 @@ const Nav = () => {
                             Protfolio
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="clients"
@@ -76,7 +78,7 @@ const Nav = () => {
                             Clients
                         </Link>
                     </li>
-                    <li className="text-white">
+                    <li className="text-white hover:text-[#20c997] cursor-pointer">
                         <Link
                             activeClass="active"
                             to="contact"
@@ -89,7 +91,11 @@ const Nav = () => {
                     </li>
                 </ul>
             </div>
-            <div>socil</div>
+            <div className="flex gap-x-6 text-xl text-white">
+                <BsTwitter className="hover:text-[#00ACEE]" />
+                <FaFacebookF className="hover:text-[#3B5998]" />
+                <BsDribbble className="hover:text-[#EA4C89]"/>
+            </div>
         </div>
     );
 };
